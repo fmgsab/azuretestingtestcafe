@@ -9,6 +9,11 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 18.x
+
+      - uses: chromaui/action@v1
+        with:
+          projectToken: ${{ secrets.CICD_TOKEN }}
+
       - uses: actions/checkout@v1
       - name: Run TestCafe Tests
         uses: DevExpress/testcafe-action@latest
