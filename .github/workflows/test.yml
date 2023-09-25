@@ -15,3 +15,7 @@ jobs:
         uses: DevExpress/testcafe-action@latest
         with:
           args: "chrome tests"
+      - name: Run Chromatic
+        uses: chromaui/action@v1
+        env:
+          CHROMATIC_PROJECT_TOKEN: ${{ secrets.CICD_TOKEN }}
