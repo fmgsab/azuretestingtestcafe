@@ -4,7 +4,7 @@ import bottomMenuWizard from './../BottomPane/BottomMenu';
 import { getListArray } from '../utils/Utility';
 
 
-fixture(`Verify Contents Form`).page`http://f-pw00qvjy:6006/`.skipJsErrors();
+fixture(`Verify Contents Form`).page`https://646a8109004ca89604646800-xwzlfvdwje.chromatic.com/`.skipJsErrors();
 
 // JSON file is working fine
 const dataSet = require('../data/SampleFile.json');
