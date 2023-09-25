@@ -1,14 +1,16 @@
-name: testcafe-action-workflow
-on: [push, pull_request, workflow_dispatch]
+name: Target Multiple Node.js Versions and Operating Systems
+on: [push, workflow_dispatch]
+
 jobs:
   build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      matrix:
-        os: [ubuntu-latest, windows-latest]
+    name: Run Tests Across Node.js Versions and Operating Systems
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - name: testcafe action workflow
-        uses: ./
+      - uses: actions/setup-node@v1
         with:
-          args: "chrome"
+          node-version: 18.x
+      - uses: actions/checkout@v1
+      - name: Run TestCafe Tests
+        uses: DevExpress/testcafe-action@latest
+        with:
+          args: "chrome tests"
