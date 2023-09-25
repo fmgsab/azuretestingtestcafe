@@ -1,0 +1,241 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`otherContent lookup-data > should match snapshot 1`] = `
+[
+  {
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "General Farm Contents",
+      "Milk",
+      "General Commercial Contents",
+      "Fixed Plant",
+      "Tenant's Improvements",
+      "Stock",
+      "Baled Hay",
+      "Portable Plant & Equipment",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "General Farm Contents",
+      "General Commercial Contents",
+      "Fixed Plant",
+      "Tenant's Improvements",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "Present Day Value",
+      "Nominated Replacement Value",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "General Farm Contents",
+      "Milk",
+      "Baled Hay",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "300",
+      "500",
+      "1,000",
+      "2,000",
+      "5,000",
+      "10,000",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "General Commercial Contents",
+      "Fixed Plant",
+      "Tenant's Improvements",
+      "Stock",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "500",
+      "1,000",
+      "1,500",
+      "2,000",
+      "3,000",
+      "4,000",
+      "5,000",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "Portable Plant & Equipment",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "500",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "Portable Plant & Equipment",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "Unlocked building/structure or open air",
+      "Unlocked vehicle",
+      "Locked building/structure",
+      "Locked vehicle",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "Baled Hay",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "Open field",
+      "Mixed storage",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "General Farm Contents",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "Accidental loss",
+      "Defined events",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "General Commercial Contents",
+      "Fixed Plant",
+      "Tenant's Improvements",
+      "Stock",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "Accidental loss",
+      "Defined events",
+      "Accidental breakdown",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "Baled Hay",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "Accidental loss",
+      "Defined events",
+    ],
+  },
+  {
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "Owner operator",
+      "Owner with farm manager",
+      "Contract milker",
+      "Farm owner in sharemilking agreement",
+      "Sharemilker in sharemilking agreement",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "Portable Plant & Equipment",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "Parked on road",
+      "Locked garage",
+      "Parked off road",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "Milk",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "Lower order",
+      "50/50",
+      "Other",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "Portable Plant & Equipment",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "5,000",
+      "10,000",
+      "15,000",
+      "20,000",
+      "25,000",
+      "30,000",
+      "Other",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "Stock",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "Honey",
+      "Wine",
+      "Olive Oil",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "Stock",
+    ],
+    "itemType": [
+      "otherContent",
+    ],
+    "list": [
+      "January - April",
+      "February - May",
+      "March - June",
+      "April - July",
+      "May - August",
+      "June - September",
+      "July - October",
+      "August - November",
+      "September - December",
+      "October - January",
+      "November - February",
+      "December - March",
+    ],
+  },
+]
+`;

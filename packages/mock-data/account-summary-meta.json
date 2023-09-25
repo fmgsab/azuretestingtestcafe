@@ -1,0 +1,18 @@
+{
+  "cardTitles": {
+    "accountInformation": "Account Information",
+    "farmAndBusinessInformation": "Farm and Business Information",
+    "referrals": "Referrals"
+  },
+  "rowLabels": {
+    "accountName": "Account Name",
+    "farmAndBusinessOperation": "Operations",
+    "inceptionDate": "Inception Date",
+    "operatingModel": "Operating Model",
+    "operations": "Farm and Business Operation",
+    "preferredName": "Preferred Name",
+    "referralsLabel": "Type",
+    "fullName": "Full Name",
+    "primaryOwnerFirstName": "Primary Owner First Name"
+  }
+}

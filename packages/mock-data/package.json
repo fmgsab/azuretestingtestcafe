@@ -1,0 +1,10 @@
+{
+  "name": "mock-data",
+  "main": "index.ts",
+  "version": "1.0.0",
+  "types": "index.ts",
+  "dependencies": {
+    "@fmg/utils": "workspace:*",
+    "tsconfig": "workspace:*"
+  }
+}

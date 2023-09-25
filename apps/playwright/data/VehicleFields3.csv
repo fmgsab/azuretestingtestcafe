@@ -1,0 +1,5 @@
+﻿Sno,VehicleType,Rego,Year,MakeModel,Variant,VIN,Serial,CCrating,GLW,EngineType
+1,"Car, Van or Ute",Y,y,y,y,y,y,Y,y,Large Vehicles
+2,Tractor,y,y,y,y,y,y,optional,y,hide
+3,Trailer,Y,y,y,y,y,y,hide,y,hide
+4,All terrain vehicle / quad bike,y,y,y,y,y,y,Y,hide,Bikes

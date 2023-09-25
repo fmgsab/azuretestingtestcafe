@@ -1,0 +1,25 @@
+{
+  "name": "@fmg/forms",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "types": "index.ts",
+  "scripts": {
+    "check-types": "tsc --noEmit --skipLibCheck",
+    "lint": "eslint **/*.{tsx,ts,js,jsx}",
+    "coverage": "vitest --coverage",
+    "test": "vitest",
+    "test:ui": "vitest --ui --coverage.enabled=true"
+  },
+  "dependencies": {
+    "@fmg/tailwind-config": "workspace:*",
+    "@fmg/ui": "workspace:*",
+    "@fmg/utils": "workspace:*",
+    "models": "workspace:*",
+    "tsconfig": "workspace:*"
+  },
+  "devDependencies": {
+    "@storybook/react": "^7.0.12",
+    "mock-data": "workspace:*",
+    "@fmg/logger": "workspace:*"
+  }
+}

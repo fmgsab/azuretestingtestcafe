@@ -1,0 +1,13 @@
+{
+  "name": "@fmg/tailwind-config",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "types": "./index.ts",
+  "main": "./tailwind.config.cjs",
+  "dependencies": {
+    "tsconfig": "workspace:*",
+    "tailwindcss": "^3.3.2"
+  },
+  "devDependencies": {}
+}

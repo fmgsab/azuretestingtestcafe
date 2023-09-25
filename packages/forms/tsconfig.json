@@ -1,0 +1,12 @@
+{
+  "extends": "tsconfig/react-library.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "module": "ESNext",
+    "target": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "types": ["vitest/globals"],
+    "resolveJsonModule": true
+  }
+}

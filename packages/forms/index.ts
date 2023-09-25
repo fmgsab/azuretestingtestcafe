@@ -1,0 +1,12 @@
+export { ClientInfoForm } from './src/ClientInfo/ClientInfoForm';
+export { FarmInfoForm } from './src/FarmInfo/FarmInfo';
+export { DwellingInfoForm } from './src/DwellingInfo/DwellingInfoForm';
+export { FormVehicle } from './src/FormVehicle/FormVehicle';
+export { FormHouse } from './src/FormHouse/FormHouse';
+export { FormOtherContent } from './src/FormOtherContent/FormOtherContent';
+export { FormBuildingCommercial } from './src/FormBuildingCommercial/FormBuildingCommercial';
+export { FormBuildingFarm } from './src/FormBuildingFarm/FormBuildingFarm';
+export { FormKeyInfo } from './src/FormKeyInfo/FormKeyInfo';
+export { FormContent } from './src/FormContent/FormContent';
+export { FormWatercraft } from './src/FormWatercraft/FormWatercraft';
+export { FormBusInterruption } from './src/FormBusInterruption/FormBusInterruption';

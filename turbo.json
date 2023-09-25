@@ -1,0 +1,55 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "globalDependencies": ["**/.env"],
+  "globalDotEnv": [".env"],
+  "pipeline": {
+    "build": {
+      "dependsOn": ["^build"],
+      "outputs": ["dist/**", ".next/**", "!.next/cache/**", "storybook-static/**"],
+      "inputs": ["**/*.tsx", "**/*.ts", "**/*.ts", "!**/*.test.**", "!**/*.stories.**"]
+    },
+    "lint": {
+      "cache": true,
+      "outputMode": "full"
+    },
+    "check-types": {
+      "cache": true,
+      "outputMode": "full"
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "clean": {
+      "cache": false
+    },
+    "test": {
+      "cache": true,
+        "persistent": false
+    },
+    "coverage": {
+      "cache": true,
+      "persistent": false
+    },
+    "storybook": {},
+    "build-app-web": {
+      "cache": true,
+      "persistent": false,
+      "outputs": [".next/**", "!.next/cache/**"]
+    },
+    "start-playwright": {
+      "cache": true,
+      "persistent": false,
+      "dependsOn": ["build-app-web"]
+    },
+    "azurerite": {},
+    "//#azurerite": {}
+  },
+  "globalEnv": [
+    "NODE_ENV",
+    "LOG_ENABLED",
+    "LOG_LEVEL_PROD",
+    "LOG_LEVEL_DEV",
+    "AZURE_AD_TENANT_ID", "AZURE_AD_CRM_CLIENT_ID", "AZURE_AD_CRM_CLIENT_SECRET", "AZURE_AD_CRM_RESOURCE_URL", "AZURE_AD_CRM_GRANT_TYPE", "AZURE_AD_CRM_BASE_URL", "AZURE_AD_INT_CLIENT_ID",  "AZURE_AD_INT_CLIENT_SECRET",  "AZURE_AD_INT_SCOPE", "AZURE_AD_INT_GRANT_TYPE", "AZURE_AD_INT_BASE_URL", "NEXTAUTH_URL"
+  ]
+}

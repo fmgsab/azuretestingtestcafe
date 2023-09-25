@@ -1,0 +1,60 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "azurerite": "start http://localhost:3000 && next dev",
+    "build": "next build",
+    "lint": "next lint",
+    "check-types": "tsc --noEmit --skipLibCheck --incremental false",
+    "build-app-web": "next build",
+    "start": "next start",
+    "dev-pretty": "next dev | pino-pretty",
+    "open-browser": "start http://localhost:3000",
+    "run-playwright": "cd ../playwright && pnpm run playwright",
+    "open-run-playwright": "pnpm run run-playwright",
+    "start-playwright": "npm-run-all -p start open-run-playwright",
+    "sleep": "node -e \"setTimeout(()=>{}, 1000)\""
+  },
+  "dependencies": {
+    "@azure/data-tables": "^13.2.2",
+    "@tanstack/react-query": "^4.33.0",
+    "@trpc/client": "^10.38.3",
+    "@trpc/next": "^10.38.3",
+    "@trpc/react-query": "^10.38.3",
+    "@trpc/server": "^10.38.3",
+    "add": "^2.0.6",
+    "axios": "^1.4.0",
+    "babel-loader": "^9.1.2",
+    "dexie-export-import": "^4.0.7",
+    "next": "13.4.0",
+    "next-auth": "^4.23.1",
+    "next-pwa": "^5.6.0",
+    "nextjs-cors": "^2.1.2",
+    "pnpm": "^8.6.8",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.9",
+    "superjson": "^1.13.1"
+  },
+  "devDependencies": {
+    "@fmg/diga": "workspace:*",
+    "@fmg/forms": "workspace:*",
+    "@fmg/logger": "workspace:*",
+    "@fmg/tailwind-config": "workspace:*",
+    "@fmg/ui": "workspace:*",
+    "@fmg/utils": "workspace:*",
+    "@svgx/vite-plugin-react": "^1.0.1",
+    "@types/react-datepicker": "^4.11.2",
+    "axios-mock-adapter": "^1.22.0",
+    "eslint-config-custom": "workspace:*",
+    "fake-indexeddb": "^4.0.1",
+    "mock-data": "workspace:*",
+    "models": "workspace:*",
+    "tsconfig": "workspace:*"
+  },
+  "msw": {
+    "workerDirectory": "public"
+  }
+}

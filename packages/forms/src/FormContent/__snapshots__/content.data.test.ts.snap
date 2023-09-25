@@ -1,0 +1,69 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`content lookup-data snapshot > should match snapshot 1`] = `
+[
+  {
+    "itemType": [
+      "content",
+    ],
+    "list": [
+      "Household contents",
+      "Landlord's contents",
+      "Holiday home contents",
+    ],
+  },
+  {
+    "itemType": [
+      "content",
+    ],
+    "list": [
+      "Nominated Replacement Value",
+      "Present Day Value",
+    ],
+  },
+  {
+    "itemSubtype": [
+      "Household contents",
+    ],
+    "itemType": [
+      "content",
+    ],
+    "list": [
+      "Owner/Family Member",
+      "Employee",
+      "Renting",
+      "Unoccupied",
+    ],
+  },
+  {
+    "itemType": [
+      "content",
+    ],
+    "list": [
+      "300",
+      "500",
+      "1,000",
+      "2,000",
+      "5,000",
+      "10,000",
+    ],
+  },
+  {
+    "itemType": [
+      "content",
+    ],
+    "list": [
+      "Battery Powered Transportation",
+      "Bicycles",
+      "Collection",
+      "Dentures",
+      "Drones or Model Aircraft",
+      "Hearing Aids",
+      "Jewellery",
+      "Sports and Recreational Equipment",
+      "Works of Art",
+      "Other High Value Items",
+    ],
+  },
+]
+`;

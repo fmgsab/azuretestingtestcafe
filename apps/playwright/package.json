@@ -1,0 +1,22 @@
+{
+  "name": "@fmg/playwright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "playwright": "pnpm exec playwright test --project=Chromium",
+    "playwright-report": "pnpm exec playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.33.0",
+    "eslint-config-custom": "workspace:*",
+    "tsconfig": "workspace:*"
+  },
+  "dependencies": {
+    "csv-parse": "^5.4.0",
+    "fast-csv": "^4.3.6"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build-storybook": "storybook build",
+    "lint": "eslint **/*.{tsx,ts}",
+    "storybook": "storybook dev -p 6006",
+    "chromatic": "chromatic --project-token=chpt_c85f3c105f17ceb --dry-run --exit-zero-on-changes --skip 'dependabot/**'"
+  },
+  "dependencies": {
+    "@fmg/forms": "workspace:*",
+    "@fmg/ui": "workspace:*",
+    "@fmg/tailwind-config": "workspace:*",
+    "@fmg/logger": "workspace:*",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@fmg/tailwind-config": "workspace:*",
+    "@storybook/addon-a11y": "7.0.12",
+    "@storybook/addon-essentials": "7.0.12",
+    "@storybook/addon-links": "7.0.12",
+    "@storybook/blocks": "7.0.12",
+    "@storybook/react": "^7.0.12",
+    "@storybook/react-vite": "7.0.12",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint-config-custom": "workspace:*",
+    "storybook": "7.0.12",
+    "vite-plugin-commonjs": "^0.7.1",
+    "vite-plugin-node-polyfills": "^0.8.2",
+    "vite-plugin-turbosnap": "^1.0.2"
+  },
+  "packageManager": "pnpm@8.2.0"
+}

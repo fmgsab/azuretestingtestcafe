@@ -1,0 +1,16 @@
+{
+  "name": "@fmg/utils",
+  "version": "1.0.0",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "scripts": {
+    "check-types": "tsc --noEmit --skipLibCheck",
+    "lint": "eslint **/*.{tsx,ts,js,jsx}",
+    "coverage": "vitest --coverage",
+    "test": "vitest",
+    "test:ui": "vitest --ui --coverage.enabled=true"
+  },
+  "dependencies": {
+    "tsconfig": "workspace:*"
+  }
+}

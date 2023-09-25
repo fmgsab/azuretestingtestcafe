@@ -1,0 +1,34 @@
+﻿Sno,VehicleType,Rego,Year,MakeModel,Variant,VIN,Serial,CCrating,GLW,EngineType
+1,"Car, Van or Ute",Y,y,y,y,y,y,Y,y,Large Vehicles
+2,Tractor,y,y,y,y,y,y,optional,y,hide
+3,Trailer,Y,y,y,y,y,y,hide,y,hide
+4,All terrain vehicle / quad bike,y,y,y,y,y,y,Y,hide,Bikes
+5,Truck,y,y,y,y,y,y,y,y,Large Vehicles
+6,Other Implement (drawn),y,y,y,y,y,y,hide,hide,hide
+7,Digger/excavator,y,y,y,y,y,y,optional,y,hide
+8,Irrigator - centre pivot,y,y,y,y,y,y,hide,y,hide
+9,Off road utility task vehicle,y,y,y,y,y,y,Y,y,Bikes
+10,Motorbike,Y,y,y,y,y,y,Y,hide,Bikes
+11,Mower,y,y,y,y,y,y,hide,y,hide
+12,Wagon (feed out/silage),y,y,y,y,y,y,hide,hide,hide
+13,Caravan,Y,y,y,y,y,y,hide,y,hide
+14,Spreader,y,y,y,y,y,y,hide,hide,hide
+15,Other Vehicle (self powered),y,y,y,y,y,y,y,hide,hide
+16,Irrigator - travelling,y,y,y,y,y,y,hide,y,hide
+17,Fork lift,y,y,y,y,y,y,optional,y,hide
+18,Horse float,Y,y,y,y,y,y,hide,y,hide
+19,Baler,y,y,y,y,y,y,hide,y,hide
+20,Spray equipment,y,y,y,y,y,y,hide,hide,hide
+21,Ride-on mower,y,y,y,y,y,y,optional,y,hide
+22,Post rammer,y,y,y,y,y,y,hide,hide,hide
+23,Motorhome,Y,y,y,y,y,y,Y,y,Large Vehicles
+24,Bulldozer,y,y,y,y,y,y,optional,y,hide
+25,Forage harvester,y,y,y,y,y,y,optional,y,hide
+26,Hydra ladder,y,y,y,y,y,y,optional,y,hide
+27,Horse truck,Y,y,y,y,y,y,y,y,Large Vehicles
+28,Power harrow,y,y,y,y,y,y,hide,hide,hide
+29,Front end loader(FEL)/bucket/fork,y,y,y,y,y,y,hide,hide,hide
+30,Header,y,y,y,y,y,y,optional,y,hide
+31,Irrigator - linear,y,y,y,y,y,y,hide,y,hide
+32,Round baler,y,y,y,y,y,y,hide,y,hide
+33,Crate,y,y,y,y,y,y,hide,hide,hide

@@ -1,0 +1,23 @@
+{
+  "name": "models",
+  "main": "./src/index.ts",
+  "version": "1.0.0",
+  "license": "MIT",
+  "types": "./src/index.ts",
+  "scripts": {
+    "check-types": "tsc --noEmit --skipLibCheck",
+    "coverage": "vitest --coverage",
+    "lint": "eslint **/*.{tsx,ts}",
+    "test": "vitest",
+    "test:ui": "vitest --ui --coverage.enabled=true"
+  },
+  "devDependencies": {
+    "validator": "^13.9.0",
+    "@types/validator": "^13.7.17",
+    "@fmg/logger": "workspace:*"
+  },
+  "dependencies": {
+    "@fmg/utils": "workspace:*",
+    "tsconfig": "workspace:*"
+  }
+}

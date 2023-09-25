@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor">
+    <path d="M7.5 5.5h9a.5.5 0 0 1 .5.5v4.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V6a.5.5 0 0 1 .5-.5zm8.5 1H8V10h8z"/>
+    <path d="M20 5v14a2.5 2.5 0 0 1-2.5 2.5h-11A2.5 2.5 0 0 1 4 19V5a2.5 2.5 0 0 1 2.5-2.5h11A2.5 2.5 0 0 1 20 5zM5 19a1.5 1.5 0 0 0 1.5 1.5h11A1.5 1.5 0 0 0 19 19V5a1.5 1.5 0 0 0-1.5-1.5h-11A1.5 1.5 0 0 0 5 5z"/>
+    <circle cx="1.125" cy="1.125" r="1.125" transform="translate(7.125 12.75)" fill="rgba(0,0,0,0)"/>
+    <circle cx="1.125" cy="1.125" r="1.125" transform="translate(10.875 12.75)" fill="rgba(0,0,0,0)"/>
+    <circle cx="1.125" cy="1.125" r="1.125" transform="translate(14.625 12.75)" fill="rgba(0,0,0,0)"/>
+    <circle cx="1.125" cy="1.125" r="1.125" transform="translate(7.125 16.5)" fill="rgba(0,0,0,0)"/>
+    <circle cx="1.125" cy="1.125" r="1.125" transform="translate(10.875 16.5)" fill="rgba(0,0,0,0)"/>
+    <circle cx="1.125" cy="1.125" r="1.125" transform="translate(14.625 16.5)" fill="rgba(0,0,0,0)"/>
+</svg>
