@@ -1,0 +1,22 @@
+{
+  "name": "testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "testcafe chrome ./tests",
+    "test:reports": "testcafe chrome -c 3  -s takeOnFails=true ./tests/ContentsForm.test.ts --reporter html:reports/html/index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.6.0",
+    "csv-parser": "^3.0.0",
+    "fast-csv": "^4.3.6",
+    "fs": "^0.0.1-security",
+    "testcafe": "^3.3.0",
+    "testcafe-reporter-html": "^1.4.6",
+    "xlsx": "^0.18.5",
+	"typescript": "5.2.2"
+  }
+}
