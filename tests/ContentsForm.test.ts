@@ -5,7 +5,7 @@ import { getListArray } from '../utils/Utility';
 
 // const adminData = require('../../../packages/models/src/data-dictionary/lookup-data.json');
 
-fixture(`Verify Contents Form`).page`http://localhost:6006/`.skipJsErrors();
+fixture(`Verify Contents Form`).page`http://f-pw00qvjy:6006/`.skipJsErrors();
 
 // JSON file is working fine
 const dataSet = require('../data/SampleFile.json');

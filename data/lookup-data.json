@@ -1,0 +1,1290 @@
+{
+  "titles": ["Mr", "Mrs", "Ms", "Dr", "Miss", "Rev", "Lady", "Sir", "No Title"],
+  "roles": [
+    "Account Holder",
+    "Accountant",
+    "Authority To Act",
+    "Director",
+    "Driver",
+    "Employee/Employer",
+    "Executor",
+    "Family Relation",
+    "Joint Account Holder",
+    "Lawyer",
+    "Named Insured",
+    "Power of Attorney",
+    "Secondary Contact",
+    "Shareholder",
+    "Trustee"
+  ],
+  "phoneTypes": ["Home", "Mobile", "Work"],
+  "licenceLostReasons": ["Demerit point accumulation", "DIC", "Other"],
+  "itemTypes": [
+    { "value": "house", "label": "Houses" },
+    { "value": "content", "label": "Household Contents" },
+    { "value": "farmBuilding", "label": "Farm Buildings" },
+    { "value": "commercialBuilding", "label": "Commercial Buildings" },
+    { "value": "otherContent", "label": "Other Contents" },
+    { "value": "busInterruption", "label": "Business Interruption" },
+    { "value": "vehicle", "label": "Vehicles" },
+    { "value": "watercraft", "label": "Watercraft" },
+    { "value": "liability", "label": "Liability" },
+    { "value": "animal", "label": "Animals" },
+    { "value": "fleet", "label": "Grouped Vehicles" },
+    { "value": "specialtyRisk", "label": "Specialty Risk Referrals" },
+    { "value": "kiwifruit", "label": "Kiwifruit" },
+    { "value": "orchard", "label": "Orchard Fruit" },
+    { "value": "transit", "label": "Goods in Transit" },
+    { "value": "crop", "label": "Crop" },
+    { "value": "contractWork", "label": "Contract Works" },
+    { "value": "livestock", "label": "Livestock / Animals" }
+  ],
+  "itemSubtypes": [
+    {
+      "list": [
+        "Car, Van or Ute",
+        "Tractor",
+        "Unspecified farm vehicles",
+        "Trailer",
+        "All terrain vehicle / quad bike",
+        "Truck",
+        "Other Implement (drawn)",
+        "Digger/excavator",
+        "Irrigator - centre pivot",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Mower",
+        "Wagon (feed out/silage)",
+        "Caravan",
+        "Spreader",
+        "Other Vehicle (self powered)",
+        "Irrigator - travelling",
+        "Fork lift",
+        "Horse float",
+        "Baler",
+        "Spray equipment",
+        "Ride-on mower",
+        "Post rammer",
+        "Motorhome",
+        "Bulldozer",
+        "Forage harvester",
+        "Hydra ladder",
+        "Horse truck",
+        "Power harrow",
+        "Front end loader(FEL)/bucket/fork",
+        "Header",
+        "Irrigator - linear",
+        "Round baler",
+        "Crate"
+      ],
+      "itemType": ["vehicle"]
+    },
+    {
+      "list": ["Dwelling"],
+      "itemType": ["house"]
+    },
+    {
+      "list": [
+        "Implement Shed",
+        "Unspecified Farm Buildings",
+        "Hayshed",
+        "Workshop",
+        "Woolshed",
+        "Dairy Shed",
+        "Pump Shed",
+        "Other Specified Building",
+        "Farm Fencing",
+        "Bore and Well Shaft",
+        "Office",
+        "Calf Shed",
+        "Poultry Shed",
+        "Bridge",
+        "Unspecified Culverts",
+        "Silo/Vat",
+        "Windmachine",
+        "Deer Shed",
+        "Stables",
+        "Plastic house",
+        "Fertiliser/Manure Bin",
+        "Covered Yards",
+        "Specified Culvert",
+        "Growing Structure",
+        "Herd Home",
+        "Wintering Barn",
+        "Coolstore",
+        "Barn",
+        "Packhouse",
+        "Piggery",
+        "Fixed Plant",
+        "Underpass",
+        "Glass house",
+        "Shelter Belt",
+        "Open Sided Building",
+        "Cow Shelter",
+        "Power Pole"
+      ],
+      "itemType": ["farmBuilding"]
+    },
+    {
+      "list": [
+        "Implement Shed",
+        "Hayshed",
+        "Workshop",
+        "Other Specified Building",
+        "Office",
+        "Motel",
+        "Poultry Shed",
+        "Warehouse",
+        "Retail Shop",
+        "Stables",
+        "Plastic house",
+        "Growing Structure",
+        "Herd Home",
+        "Coolstore",
+        "Packhouse",
+        "Piggery",
+        "Restaurant/Cafe",
+        "Factory",
+        "Multi Unit /Body Corporate",
+        "Glass house",
+        "Hall",
+        "Resthome",
+        "Hotel",
+        "Church",
+        "Winery Building",
+        "Petrol Station",
+        "Kindergarten",
+        "Sports Club"
+      ],
+      "itemType": ["commercialBuilding"]
+    },
+    {
+      "list": ["Household contents", "Landlord's contents", "Holiday home contents"],
+      "itemType": ["content"]
+    },
+    {
+      "list": [
+        "General Farm Contents",
+        "Milk",
+        "General Commercial Contents",
+        "Fixed Plant",
+        "Tenant's Improvements",
+        "Stock",
+        "Baled Hay",
+        "Portable Plant & Equipment"
+      ],
+      "itemType": ["otherContent"]
+    },
+    {
+      "list": [
+        "Canoe/Kayak",
+        "Dinghy/Inflatable Craft",
+        "Dinghy/Row boat/Tender",
+        "Jet Ski",
+        "Paddleboard/Surf board",
+        "Power Boat",
+        "Sail Boat/Yacht",
+        "Sail boat (unpowered/no motor)",
+        "Windsurfer/Kite surfer",
+        "Other boat (unpowered/no motor)"
+      ],
+      "itemType": ["watercraft"]
+    },
+    {
+      "list": [
+        "Dairy Farm",
+        "Commercial",
+        "Non Dairy Farm",
+        "Horticultural"
+      ],
+      "itemType": ["busInterruption"]
+    }
+  ],
+  "usages": [
+    {
+      "value": "Private",
+      "label": "Private",
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Car, Van or Ute",
+        "Trailer",
+        "All terrain vehicle / quad bike",
+        "Truck",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Caravan",
+        "Horse float",
+        "Motorhome",
+        "Horse truck"
+      ]
+    },
+    {
+      "value": "Farm",
+      "label": "Farm",
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Car, Van or Ute",
+        "Tractor",
+        "Unspecified farm vehicles",
+        "Trailer",
+        "All terrain vehicle / quad bike",
+        "Truck",
+        "Other Implement (drawn)",
+        "Digger/excavator",
+        "Irrigator - centre pivot",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Mower",
+        "Wagon (feed out/silage)",
+        "Spreader",
+        "Other Vehicle (self powered)",
+        "Irrigator - travelling",
+        "Fork lift",
+        "Baler",
+        "Spray equipment",
+        "Ride-on mower",
+        "Post rammer",
+        "Bulldozer",
+        "Forage harvester",
+        "Hydra ladder",
+        "Power harrow",
+        "Front end loader(FEL)/bucket/fork",
+        "Header",
+        "Irrigator - linear",
+        "Round baler",
+        "CRATE"
+      ]
+    },
+    {
+      "value": "Commercial",
+      "label": "Commercial",
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Car, Van or Ute",
+        "Tractor",
+        "Unspecified farm vehicles",
+        "Trailer",
+        "All terrain vehicle / quad bike",
+        "Truck",
+        "Other Implement (drawn)",
+        "Digger/excavator",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Mower",
+        "Wagon (feed out/silage)",
+        "Caravan",
+        "Spreader",
+        "Other Vehicle (self powered)",
+        "Fork lift",
+        "Horse float",
+        "Baler",
+        "Spray equipment",
+        "Ride-on mower",
+        "Post rammer",
+        "Motorhome",
+        "Bulldozer",
+        "Forage harvester",
+        "Hydra ladder",
+        "Horse truck",
+        "Power harrow",
+        "Front end loader(FEL)/bucket/fork",
+        "Header",
+        "Round baler",
+        "CRATE"
+      ]
+    },
+    {
+      "expirationDate": "2022-06-12T00:00:00",
+      "value": "Part commercial",
+      "label": "Part commercial",
+      "itemType": ["vehicle"],
+      "itemSubtype": ["Car, Van or Ute"]
+    },
+    {
+      "list": ["Personal", "Part Commercial/Commercial"],
+      "itemType": ["watercraft"]
+    }
+  ],
+  "coverTypes": [
+    {
+      "list": ["Comprehensive", "Third Party, Fire & Theft", "Third Party Only", "Fire & Theft", "Fire Only"],
+      "itemType": ["vehicle"]
+    },
+    {
+      "list": ["Comprehensive", "On land only"],
+      "itemType": ["watercraft"],
+      "itemSubtype": [
+        "Dinghy/Inflatable Craft",
+        "Jet Ski",
+        "Power Boat"
+      ]
+    },
+    {
+      "list": ["Comprehensive"],
+      "itemType": ["watercraft"],
+      "itemSubtype": [
+        "Canoe/Kayak",
+        "Dinghy/Row boat/Tender",
+        "Paddleboard/Surf board",
+        "Sail Boat/Yacht",
+        "Sail boat (unpowered/no motor)",
+        "Windsurfer/Kite surfer",
+        "Other boat (unpowered/no motor)"
+      ]
+    }
+  ],
+  "settlementTypes": [
+    {
+      "list": ["Replacement Capped at Sum Insured for Natural Disaster", "Nominated Replacement", "Present Day Value"],
+      "itemType": ["house"]
+    },
+    {
+      "list": [
+        "Full Replacement",
+        "Nominated Replacement",
+        "Smaller Area Replacement Cost",
+        "Present Day Value"
+      ],
+      "itemType": ["farmBuilding"]
+    },
+    {
+      "list": ["Nominated Replacement Value", "Present Day Value"],
+      "itemType": ["content"]
+    },
+    {
+      "list": [
+        "Nominated Replacement",
+        "Present Day Value",
+        "Functional Replacement"
+      ],
+      "itemType": ["commercialBuilding"]
+    },
+    {
+      "list": [
+        "Present Day Value"
+      ],
+      "itemType": ["farmBuilding"],
+      "itemSubtype": [
+        "Unspecified Farm Buildings",
+        "Farm Fencing"
+      ]
+    },
+    {
+      "list": ["Present Day Value", "Nominated Replacement Value"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["General Farm Contents", "General Commercial Contents", "Fixed Plant", "Tenant's Improvements"]
+    }
+  ],
+  "optionalCoverTypes": [
+    {
+      "name": "hasHireCharges",
+      "label": "Hire Charges",
+      "value": "Hire Charges",
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Car, Van or Ute",
+        "Tractor",
+        "Truck",
+        "Mower",
+        "Wagon (feed out/silage)",
+        "Other Implement (drawn)",
+        "Digger/excavator",
+        "Caravan",
+        "Spreader",
+        "Other Vehicle (self powered)",
+        "Fork lift",
+        "Horse float",
+        "Baler",
+        "Spray equipment",
+        "Ride-on mower",
+        "Post rammer",
+        "Motorhome",
+        "Bulldozer",
+        "Forage harvester",
+        "Hydra ladder",
+        "Horse truck",
+        "Power harrow",
+        "Front end loader(FEL)/bucket/fork",
+        "Header",
+        "Round baler",
+        "Crate"
+      ],
+      "usage": ["Private", "Farm"],
+      "coverType": ["Comprehensive"]
+    },
+    {
+      "name": "hasContractUse",
+      "label": "Contract Use",
+      "value": "Contract Use",
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Car, Van or Ute",
+        "Trailer",
+        "Truck",
+        "All terrain vehicle / quad bike",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Caravan"
+      ],
+      "usage": ["Private", "Farm"],
+      "coverType": ["Comprehensive", "Third Party, Fire & Theft", "Third Party Only"]
+    },
+    {
+      "name": "hasContractUse",
+      "label": "Contract Use",
+      "value": "Contract Use",
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Tractor",
+        "Other Implement (drawn)",
+        "Digger/excavator",
+        "Mower",
+        "Wagon (feed out/silage)",
+        "Spreader",
+        "Other Vehicle (self powered)",
+        "Fork lift",
+        "Horse float",
+        "Baler",
+        "Spray equipment",
+        "Ride-on mower",
+        "Post rammer",
+        "Motorhome",
+        "Bulldozer",
+        "Forage harvester",
+        "Hydra ladder",
+        "Horse truck",
+        "Power harrow",
+        "Front end loader(FEL)/bucket/fork",
+        "Header",
+        "Round baler",
+        "Crate"
+      ],
+      "usage": ["Farm"],
+      "coverType": ["Comprehensive", "Third Party, Fire & Theft", "Third Party Only"]
+    },
+    {
+      "name": "hasDefinedEvent",
+      "label": "Defined Event",
+      "value": "Defined Event",
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Car, Van or Ute",
+        "Trailer",
+        "Tractor",
+        "Truck",
+        "All terrain vehicle / quad bike",
+        "Other Implement (drawn)",
+        "Digger/excavator",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Mower",
+        "Wagon (feed out/silage)",
+        "Caravan",
+        "Spreader",
+        "Other Vehicle (self powered)",
+        "Fork lift",
+        "Horse float",
+        "Baler",
+        "Spray equipment",
+        "Ride-on mower",
+        "Post rammer",
+        "Motorhome",
+        "Bulldozer",
+        "Forage harvester",
+        "Hydra ladder",
+        "Horse truck",
+        "Power harrow",
+        "Front end loader(FEL)/bucket/fork",
+        "Header",
+        "Round baler",
+        "Crate"
+      ],
+      "usage": ["Private", "Farm", "Commercial"],
+      "coverType": ["Fire & Theft", "Fire Only"]
+    },
+    {
+      "name": "hasAdditionalCosts",
+      "label": "Additional Costs",
+      "value": "Additional Costs",
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Car, Van or Ute",
+        "Trailer",
+        "Tractor",
+        "Truck",
+        "All terrain vehicle / quad bike",
+        "Other Implement (drawn)",
+        "Digger/excavator",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Mower",
+        "Wagon (feed out/silage)",
+        "Caravan",
+        "Spreader",
+        "Other Vehicle (self powered)",
+        "Fork lift",
+        "Horse float",
+        "Baler",
+        "Spray equipment",
+        "Ride-on mower",
+        "Post rammer",
+        "Motorhome",
+        "Bulldozer",
+        "Forage harvester",
+        "Hydra ladder",
+        "Horse truck",
+        "Power harrow",
+        "Front end loader(FEL)/bucket/fork",
+        "Header",
+        "Round baler",
+        "Crate"
+      ],
+      "usage": ["Commercial"],
+      "coverType": ["Comprehensive"]
+    },
+    {
+      "name": "hasHoists",
+      "label": "Hoists",
+      "value": "Hoists",
+      "itemType": ["vehicle"],
+      "itemSubtype": ["Car, Van or Ute", "Trailer", "Truck"],
+      "usage": ["Commercial"],
+      "coverType": ["Comprehensive"]
+    },
+    {
+      "name": "hasExcessFreeGlass",
+      "label": "Excess Free Glass",
+      "value": "Excess Free Glass",
+      "itemType": ["house"],
+      "occupancy": ["Owner/Family Member", "Employee", "Holiday Home"]
+    },
+    {
+      "name": "hasMatchingFloorCoverings",
+      "label": "Matching Floor Coverings",
+      "value": "Matching Floor Coverings",
+      "itemType": ["house"],
+      "occupancy": ["Owner/Family Member", "Employee", "Holiday Home"]
+    }
+  ],
+  "lifeStyleCovers": [
+    {
+      "name": "hasLifestyleBlockFencing",
+      "label": "Lifestyle Block Fencing",
+      "value": "Lifestyle Block Fencing",
+      "itemType": ["house"],
+      "occupancy": ["Owner/Family Member", "Tenanted", "Employee", "Holiday Home"]
+    },
+    {
+      "name": "hasLifestylePumpsAndMotors",
+      "label": "Lifestyle Pumps & Motors",
+      "value": "Lifestyle Pumps & Motors",
+      "itemType": ["house"],
+      "occupancy": ["Owner/Family Member", "Tenanted", "Employee", "Holiday Home"]
+    }
+  ],
+  "occupancyTypes": [
+    {
+      "list": ["Owner/Family Member", "Tenanted", "Employee", "Holiday Home"],
+      "itemType": ["house"]
+    },
+    {
+      "list": ["Owner occupied", "Tenanted", "Unoccupied"],
+      "itemType": ["commercialBuilding", "farmBuilding"]
+    },
+    {
+      "list": ["Owner/Family Member", "Employee", "Renting", "Unoccupied"],
+      "itemType": ["content"],
+      "itemSubtype": ["Household contents"]
+    }
+  ],
+  "licenceTypes": ["Full", "Restricted", "Learners", "International"],
+  "interestedParties": ["Toyota Finance", "Motor Trade Finance", "Marac Finance"],
+  "excesses": [
+    {
+      "list": ["1% Sum Insured ($500 Min)", "1,000", "2,000", "5,000", "10,000"],
+      "itemType": ["vehicle"],
+      "usage": ["Commercial"]
+    },
+    {
+      "list": ["500", "750", "1,000", "2,000", "3,000", "5,000", "10,000"],
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Car, Van or Ute",
+        "Trailer",
+        "All terrain vehicle / quad bike",
+        "Truck",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Caravan",
+        "Horse float",
+        "Motorhome",
+        "Horse truck"
+      ],
+      "usage": ["Private"],
+      "max": ["sumInsured.gstExclusive", 99999.99]
+    },
+    {
+      "list": ["1% Sum Insured"],
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Car, Van or Ute",
+        "Trailer",
+        "All terrain vehicle / quad bike",
+        "Truck",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Caravan"
+      ],
+      "usage": ["Private"],
+      "min": ["sumInsured.gstExclusive", 100000]
+    },
+    {
+      "list": ["500", "750", "1,000", "2,000", "3,000", "5,000", "10,000"],
+      "itemType": ["vehicle"],
+      "usage": ["Farm"],
+      "itemSubtype": [
+        "Car, Van or Ute",
+        "Tractor",
+        "Unspecified farm vehicles",
+        "Trailer",
+        "All terrain vehicle / quad bike",
+        "Truck",
+        "Other Implement (drawn)",
+        "Digger/excavator",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Mower",
+        "Wagon (feed out/silage)",
+        "Spreader",
+        "Other Vehicle (self powered)",
+        "Fork lift",
+        "Baler",
+        "Spray equipment",
+        "Ride-on mower",
+        "Post rammer",
+        "Bulldozer",
+        "Forage harvester",
+        "Hydra ladder",
+        "Power harrow",
+        "Front end loader(FEL)/bucket/fork",
+        "Header",
+        "Round baler",
+        "CRATE"
+      ]
+    },
+    {
+      "list": ["500", "750", "1,000", "2,000", "3,000", "5,000", "10,000"],
+      "itemType": ["vehicle"],
+      "itemSubtype": ["Irrigator - centre pivot", "Irrigator - travelling", "Irrigator - linear"],
+      "usage": ["Farm"],
+      "coverType": ["Fire & Theft", "Fire Only"]
+    },
+    {
+      "list": ["500"],
+      "itemType": ["vehicle"],
+      "itemSubtype": ["Irrigator - centre pivot", "Irrigator - travelling", "Irrigator - linear"],
+      "usage": ["Farm"],
+      "coverType": ["Third Party, Fire & Theft", "Third Party Only"]
+    },
+    {
+      "list": ["2,500", "5,000", "10,000"],
+      "itemType": ["vehicle"],
+      "itemSubtype": ["Irrigator - centre pivot", "Irrigator - travelling", "Irrigator - linear"],
+      "usage": ["Farm"],
+      "coverType": ["Comprehensive"]
+    },
+    {
+      "list": ["400", "500", "750", "1,000", "2,000", "5,000", "10,000"],
+      "itemType": ["house"],
+      "occupancy": ["Owner/Family Member", "Holiday Home"]
+    },
+    {
+      "list": ["550", "650", "900", "1,150", "2,150", "5,150", "10,150"],
+      "itemType": ["house"],
+      "occupancy": ["Tenanted", "Employee"]
+    },
+    {
+      "list": ["1% Sum Insured"],
+      "itemType": ["watercraft"],
+      "min": ["sumInsured.gstExclusive", 100000]
+    },
+    {
+      "list": ["250" ,"500", "1,000", "2,000", "5,000", "10,000"],
+      "itemType": ["watercraft"],
+      "max": ["sumInsured.gstExclusive", 99999.99]
+    },
+    {
+      "list": ["300", "500", "1,000", "2,000", "5,000", "10,000"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["General Farm Contents", "Milk", "Baled Hay"]
+    },
+    {
+      "list": ["500", "1,000", "1,500", "2,000", "3,000", "4,000", "5,000"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["General Commercial Contents", "Fixed Plant", "Tenant's Improvements", "Stock"]
+    },
+    {
+      "list": ["500"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["Portable Plant & Equipment"]
+    },
+    {
+      "list": ["500", "1,000", "2,000", "5,000", "10,000"],
+      "itemType": ["farmBuilding"]
+    },
+    {
+      "list": ["500", "1,000", "1,500", "1,650", "2,000", "3,000", "3,150", "4,000", "5,000"],
+      "itemType": ["commercialBuilding"]
+    },
+    {
+      "list": ["300", "500", "1,000", "2,000", "5,000", "10,000"],
+      "itemType": ["content"]
+    }
+  ],
+  "limitsPerBuilding": [
+    {
+      "list": ["2,500", "5,000", "10,000", "Other"],
+      "itemType": ["farmBuilding"],
+      "itemSubtype": ["Unspecified Farm Buildings"]
+    }
+  ],
+  "engineTypes": [
+    {
+      "list": ["Petrol", "Diesel turbo", "Diesel", "Petrol turbo/rotary", "Hybrid", "Electric", "Supercharged", "LPG"],
+      "itemType": ["vehicle"],
+      "itemSubtype": ["Car, Van or Ute", "Truck", "Motorhome", "Horse truck"]
+    },
+    {
+      "list": ["4 Stroke", "2 Stroke", "Electric", "Other"],
+      "itemType": ["vehicle"],
+      "itemSubtype": ["All terrain vehicle / quad bike", "Off road utility task vehicle", "Motorbike"]
+    }
+  ],
+  "modificationTypes": [
+    {
+      "list": [
+        "Mag wheels",
+        "Lowered Suspension",
+        "Adjustable Suspension",
+        "Aftermarket turbo",
+        "Body Kit",
+        "Modified Engine",
+        "Stereo/speaker equipment",
+        "Bull bars",
+        "Canopy",
+        "Roll bars",
+        "Winches",
+        "LPG",
+        "Other"
+      ],
+      "itemType": ["vehicle"],
+      "itemSubtype": ["Car, Van or Ute"]
+    },
+    {
+      "list": ["Mag wheels", "Winches", "Signwriting", "Crate/Cage", "Tail Lift", "GPS", "Spray Gear", "Body Modifications", "Other"],
+      "itemType": ["vehicle"],
+      "itemSubtype": ["Truck"]
+    },
+    {
+      "list": ["Modified exhaust", "Modified engine", "Side car", "Body Modifications", "Other"],
+      "itemType": ["vehicle"],
+      "itemSubtype": ["All terrain vehicle / quad bike", "Off road utility task vehicle", "Motorbike"]
+    },
+    {
+      "list": ["Body Modifications", "Other"],
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "Other Implement (drawn)",
+        "Digger/excavator",
+        "Irrigator - centre pivot",
+        "Tractor",
+        "Trailer",
+        "Mower",
+        "Wagon (feed out/silage)",
+        "Spreader",
+        "Other Vehicle (self powered)",
+        "Irrigator - travelling",
+        "Fork lift",
+        "Baler",
+        "Spray equipment",
+        "Ride-on mower",
+        "Post rammer",
+        "Bulldozer",
+        "Forage harvester",
+        "Hydra ladder",
+        "Power harrow",
+        "Front end loader(FEL)/bucket/fork",
+        "Header",
+        "Irrigator - linear",
+        "Round baler",
+        "Crate"
+      ]
+    },
+    {
+      "list": ["Fixture/Fitting"],
+      "itemType": ["vehicle"],
+      "itemSubtype": ["Caravan", "Motorhome", "Horse float", "Horse truck"]
+    },
+    {
+      "list": ["Non standard modification", "Permanently stored accessories"],
+      "itemType": ["watercraft"],
+      "itemSubtype": ["Power Boat", "Sail Boat/Yacht"]
+    },
+    {
+      "list": ["Non standard modification"],
+      "itemType": ["watercraft"],
+      "itemSubtype": ["Dinghy/Inflatable Craft", "Jet Ski"]
+    }
+  ],
+  "storages": [
+    {
+      "list": ["Lockable Garage", "Driveway", "Unlockable Farm Building", "Lockable Farm Building"],
+      "itemType": ["vehicle"],
+      "itemSubtype": [
+        "All terrain vehicle / quad bike",
+        "Off road utility task vehicle",
+        "Motorbike",
+        "Other Implement (drawn)",
+        "Trailer",
+        "Caravan",
+        "Horse float",
+        "Horse truck"
+      ]
+    },
+    {
+
+      "list": ["Unlocked building/structure or open air", "Unlocked vehicle", "Locked building/structure", "Locked vehicle"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["Portable Plant & Equipment"]
+    },
+    {
+      "list": ["Open field", "Mixed storage"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["Baled Hay"]
+    },
+    {
+      "list": ["Open Air", "Warehouse", "Coolstore", "Grain Silo", "Farm Building", "Workshop", "Other" ],
+      "itemType": ["liability"]
+    }
+  ],
+  "has.driver": [
+    {
+      "itemSubtype": ["Car, Van or Ute", "Truck", "Motorhome", "Horse truck"],
+      "usage": ["Private"]
+    }
+  ],
+  "has.rider": [
+    {
+      "itemSubtype": ["Motorbike"],
+      "usage": ["Private"]
+    }
+  ],
+  "roofConstruction": [
+    {
+      "list": ["Concrete tiles", "Fibre cement", "Metal", "Shingles", "Slate", "Terracotta tiles"],
+      "itemType": ["house"]
+    },
+    {
+      "list": ["Asphalt/Slate Shingle", "Concrete or Clay Tile", "Steel/Iron"],
+      "itemType": ["farmBuilding"]
+    },
+    {
+      "list": ["Asbestos", "Butynol", "Coloursteel/Longrun/Iron", "Concrete or Clay Tile", "Lead"],
+      "itemType": ["commercialBuilding"]
+    },
+    {
+      "list": ["Asbestos", "Butynol, Steel / Iron", "Concrete or Clay Tile", "Lead"],
+      "itemType": ["liability"]
+    }
+  ],
+  "floorConstructions": ["Concrete", "Earth", "Wood"],
+  "wallConstruction": [
+    {
+      "list": [
+        "Alternative wall types",
+        "Artificial weatherboard or plank cladding",
+        "Blockwork",
+        "Brickveneer",
+        "Double brick",
+        "Panel wall systems",
+        "Sheet cladding",
+        "Stonework - solid",
+        "Stonework - veneer",
+        "Timber weatherboard or plank cladding"
+      ],
+      "itemType": ["house"]
+    },
+    {
+      "list": [
+        "Brick",
+        "Concrete",
+        "Expanded PolyStyrene (EPS)",
+        "Iron Clad",
+        "Plastic",
+        "Steel/Galvanised/Corrugated Iron",
+        "Stone",
+        "Wood"
+      ],
+      "itemType": ["farmBuilding"]
+    },
+    {
+      "list": [
+        "Double Brick/Solid Concrete",
+        "Iron clad",
+        "Reinforced Concrete",
+        "Sandwich Panel",
+        "Wood/Brick Veneer/Stucco"
+      ],
+      "itemType": ["commercialBuilding"]
+    },
+    {
+      "list": [
+        "Double Brick / Solid Concrete", "Reinforced Concrete", "Sandwich Panel"
+      ],
+      "itemType": ["liability"]
+    }
+  ],
+  "constructionQuality": [
+    {
+      "list": ["Standard", "Superior", "Architectural"],
+      "itemType": ["house"]
+    }
+  ],
+  "buildingStories": [
+    {
+      "list": ["1", "2", "3"],
+      "itemType": ["house"]
+    },
+    {
+      "list": ["1", "2", "3", "more"],
+      "itemType": ["commercialBuilding"]
+    }
+  ],
+  "wallSideOptions": ["0", "1", "2", "3", "Fully Enclosed"],
+  "landSlopeTypes": [
+    {
+      "list": ["Flat", "Gentle", "Moderate", "Severe"],
+      "itemType": ["house"]
+    }
+  ],
+  "waterSupplyTypes": ["Town", "Rural"],
+  "commonAreaTypes": [
+    {
+      "list": ["Driveways only", "Other"],
+      "itemType": ["house"]
+    }
+  ],
+  "buildingAreaTypes": [
+    "Domestic Unit",
+    "Garage - Stand alone",
+    "Balcony/Deck",
+    "Carport",
+    "Porch/Verandah",
+    "Sleepout (no plumbing)",
+    "Garage - basement",
+    "Self contained unit",
+    "Swimming pool",
+    "Garden shed",
+    "Tennis Court",
+    "Glasshouse",
+    "Domestic shed",
+    "Ducted air conditioning",
+    "Plastic house",
+    "Other"
+  ],
+  "farmBuildingAreas": [
+    "Main Building Area",
+    "Barn",
+    "Calf Shed",
+    "Covered Yards",
+    "Cow Shelter",
+    "Deer Shed",
+    "Fertiliser / Manure Bin",
+    "Fixed Plant",
+    "Hayshed",
+    "Herd Home",
+    "Implement Shed",
+    "Office",
+    "Open Sided Building",
+    "Other Specified Building",
+    "Stables",
+    "Wintering Barn",
+    "Workshop"
+  ],
+  "damageTypes": [
+    {
+      "list": ["Cosmetic", "Impact", "Structural"],
+      "itemType": ["house"]
+    }
+  ],
+  "accountTypes": ["Collective", "Sole Trader", "Trust", "Limited Liability Company", "Partnership"],
+  "accountSegments": ["Rural", "Commercial", "Lifestyle", "Residential"],
+  "paymentFrequencies": ["Monthly", "Quarterly", "Six monthly", "Annual"],
+  "paymentMethods": ["FMG", "Farmlands NI", "Farmlands SI", "Ruralco"],
+  "hullConstructions": ["Aluminium", "Fibreglass", "Steel", "Wood", "Other"],
+  "mastConstructions": ["Aluminium", "Carbon Fibre", "Combo Aluminium / Carbon Fibre", "Fibreglass", "Wood", "Other"],
+  "hullTypes": ["Catamaran", "Monohull"],
+  "watercraftStorages": ["Trailered", "Permanently moored"],
+  "traileredStorages": ["Lockable Garage", "Driveway", "Unlockable Farm Building", "Lockable Farm Building"],
+  "mooredStorages": ["Fore and Aft", "Pile", "Jetty", "Marina", "Swing", "Other"],
+  "jetSkiColours": [
+    "Apricot",
+    "Black",
+    "Brown",
+    "Blue",
+    "Green",
+    "Gold",
+    "Grey",
+    "Lime",
+    "Orange",
+    "Pink",
+    "Purple",
+    "Red",
+    "Silver",
+    "Tan",
+    "Violet",
+    "White",
+    "Yellow"
+  ],
+  "motorTypes": ["Outboard", "Inboard", "Stern Drive", "Jet Motor", "Other"],
+  "motorSpeeds": ["Up to 20 knots/37 kmph", "Up to 50 knots/93 kmph", "Over 50 knots/93 kmph"],
+  "extinguisherTypes": ["Automatic", "Manual", "None"],
+  "insuredEvents": [
+    {
+      "list": ["Comprehensive", "On Land Only"],
+      "itemType": ["watercraft"]
+    },
+    {
+      "list": ["Accidental loss", "Defined events"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["General Farm Contents"]
+    },
+    {
+      "list": ["Accidental loss", "Defined events", "Accidental breakdown"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["General Commercial Contents", "Fixed Plant", "Tenant's Improvements", "Stock"]
+    },
+    {
+      "list": ["Accidental loss", "Defined events"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["Baled Hay"]
+    }
+  ],
+  "liabilitySumsInsured": ["1,000,000", "2,000,000", "5,000,000", "10,000,000"],
+  "raceDistances": [
+    "Up to 15 (Social only)",
+    "Up to 50",
+    "Up to 100",
+    "Up to 250",
+    "Up to 500",
+    "Up to 1,000"
+  ],
+  "specifiedItems": [
+    {
+      "list": [
+        "Battery Powered Transportation",
+        "Bicycles",
+        "Collection",
+        "Dentures",
+        "Drones or Model Aircraft",
+        "Hearing Aids",
+        "Jewellery",
+        "Sports and Recreational Equipment",
+        "Works of Art",
+        "Other High Value Items"
+      ],
+      "itemType": ["content"]
+    }
+  ],
+  "fireProtections": [
+    {
+      "list": [
+        { "value":  "fireExtinguishers", "label": "Fire Extinguishers" },
+        { "value":  "fireHoseReels", "label": "Fire Hose Reels" },
+        { "value":  "waterTank", "label": "Water Tank" },
+        { "value":  "other", "label": "Other" }
+      ],
+      "itemType": ["farmBuilding"]
+    },
+    {
+      "list": [
+        { "value": "fireHoseReels", "label": "Fire Hose Reels" },
+        { "value": "fireExtinguishers", "label": "Fire Extinguishers" },
+        { "value": "monitoredHeatSmokeDetectionSystem", "label": "Monitored Heat/Smoke Detection System" },
+        { "value": "singleFlowSprinklers", "label": "Single Flow Sprinklers" },
+        { "value": "dualFlowSprinklers", "label": "Dual Flow Sprinklers" }
+      ],
+      "itemType": ["commercialBuilding"]
+    },
+    {
+      "list": [
+        { "value": "sprinklers", "label": "Sprinklers" },
+        { "value": "fireHoseReels", "label": "Fire Hose Reels" },
+        { "value": "fireExtinguishers", "label": "Fire Extinguishers" },
+        { "value": "fireSmokeAlarms", "label": "Fire / Smoke Alarms" },
+        { "value": "other", "label": "Other" }
+      ],
+      "itemType": ["liability"]
+    }
+  ],
+  "hazards": [
+    {
+      "list" : [
+        { "id": "welding", "label": "Welding", "value": "welding" },
+        { "id": "deepFatFrying", "label": "Deep Fat Frying", "value": "deepFatFrying" },
+        { "id": "grinding", "label": "Grinding", "value": "grinding" },
+        { "id": "sprayPainting", "label": "Spray Painting", "value": "sprayPainting" },
+        { "id": "woodOrPlasticProcessing", "label": "Wood or Plastic Processing", "value": "woodOrPlasticProcessing" },
+        { "id": "strorageCombustableFlammableGoods", "label": "Strorage Combustable/Flammable Goods", "value": "strorageCombustableFlammableGoods" },
+        { "id": "other", "label": "Other", "value": "other" }
+      ],
+      "itemType": ["commercialBuilding"]
+    }
+  ],
+  "securityFeatures": [
+    {
+      "list": [
+        { "id": "windowBollards", "label": "Window Bollards", "value": "windowBollards" },
+        { "id": "windowLocks", "label": "Window Locks", "value": "windowLocks" },
+        { "id": "windowBars", "label": "Window Bars", "value": "windowBars" },
+        { "id": "monitoredBurglarAlarm", "label": "Monitored Burglar Alarm", "value": "monitoredBurglarAlarm" },
+        { "id": "deadboltsToExternalDoors", "label": "Deadbolts to External Doors", "value": "deadboltsToExternalDoors" },
+        { "id": "safesWithinBuildings", "label": "Safes within Buildings", "value": "safesWithinBuildings" },
+        { "id": "securityLighting", "label": "Security Lighting", "value": "securityLighting" },
+        { "id": "securityPatrols", "label": "Security Patrols", "value": "securityPatrols" },
+        { "id": "maximumCashHeld", "label": "Maximum amount of cash held/carried", "value": "maximumCashHeld" },
+        { "id": "other", "label": "Other", "value": "other" }
+      ],
+    "itemType": ["commercialBuilding"]
+    },
+    {
+      "list": [
+        { "value": "monitoredBurglarAlarm", "label": "Monitored Burglar Alarm" },
+        { "value": "securityLighting", "label": "Security Lighting" },
+        { "value": "deadbolts", "label": "Deadbolts" },
+        { "value": "securityFencing", "label": "Security Fencing" },
+        { "value": "windowsSecured", "label": "Windows Secured" },
+        { "value": "other", "label": "Other" }
+      ],
+    "itemType": ["liability"]
+    }
+  ],
+  "historicOptions": ["No", "Cat 1", "Cat 2"],
+  "indemnityPeriod": [
+    {
+      "list": [
+        { "value": "6", "label": "6 months" },
+        { "value": "9", "label": "9 months" },
+        { "value": "12", "label": "12 months" },
+        { "value": "18", "label": "18 months" },
+        { "value": "24", "label": "24 months" }
+      ],
+      "itemType": ["busInterruption"],
+      "itemSubtype": ["Commercial", "Non Dairy Farm", "Horticultural"]
+    },
+    {
+      "list": [
+        { "value": "12", "label": "12 months" },
+        { "value": "18", "label": "18 months" },
+        { "value": "24", "label": "24 months" }
+      ],
+      "itemType": ["busInterruption"],
+      "itemSubtype": ["Dairy Farm"]
+    }
+  ],
+  "operatorTypes": [
+    {
+      "list": [
+        "Owner operator",
+        "Owner with farm manager",
+        "Contract milker",
+        "Farm owner in sharemilking agreement",
+        "Sharemilker in sharemilking agreement"
+      ],
+      "itemType": ["otherContent"]
+    }
+  ],
+  "vehicleLocations": [
+    {
+      "list": ["Parked on road", "Locked garage", "Parked off road"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["Portable Plant & Equipment"]
+    }
+  ],
+  "shareMilkingAgreement": [
+    {
+      "list": ["Lower order", "50/50", "Other"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["Milk"]
+    }
+  ],
+  "sumInsured": [
+    {
+      "list": ["5,000", "10,000", "15,000", "20,000", "25,000", "30,000", "Other"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["Portable Plant & Equipment"]
+    }
+  ],
+  "contaminationTypes": [
+    {
+      "list": ["Honey", "Wine", "Olive Oil"],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["Stock"]
+    }
+  ],
+  "seasonalStockIncrease": [
+    {
+      "list": [
+        "January - April",
+        "February - May",
+        "March - June",
+        "April - July",
+        "May - August",
+        "June - September",
+        "July - October",
+        "August - November",
+        "September - December",
+        "October - January",
+        "November - February",
+        "December - March"
+      ],
+      "itemType": ["otherContent"],
+      "itemSubtype": ["Stock"]
+    }
+  ],
+  "servicedVehicles": [
+    { "value": "carsAndTrucks", "label": "Cars and Trucks" },
+    { "value": "agVehiclesImplements", "label": "Ag Vehicles / Implements" },
+    { "value": "boatsOver10m", "label": "Boats over 10m" },
+    { "value": "boatsUnder10m", "label": "Boats under 10m" },
+    { "value": "motorbikes", "label": "Motorbikes" },
+    { "value": "other", "label": "Other" }
+  ],
+  "goodsStored": [
+    "Grazing Animals (Not Horses)",
+    "Kiwifruit (Non-Zespri Contracts Only)",
+    "Berry Fruit",
+    "Stonefruit",
+    "Pipfruit",
+    "Other Fruit",
+    "Dairy Food Products",
+    "Vegetables",
+    "Grain / Seed",
+    "Other Food Products",
+    "Animal Feed",
+    "Wine",
+    "Machinery",
+    "Other"
+  ],
+  "liability.statutory": ["$500,000", "$750,000", "$1,000,000", "Other"],
+  "liability.employers": ["$100,000", "$250,000", "$500,000", "$750,000", "$1,000,000", "Other"],
+  "liability.moralObligation": ["$10,000", "$20,000", "Other"],
+  "liability.dairyMilkContamination": ["$100,000", "$250,000", "$300,000", "$500,000", "$1,000,000", "$2,000,000", "Other"],
+  "liability.propertyInCare": ["$500,000", "$750,000", "$1,000,000", "Other"],
+  "liability.coolstore": ["$50,000", "$100,000", "$250,000", "$500,000", "$750,000", "$1,000,000", "$2,000,000", "Other"],
+  "liability.sprayingDrift": ["$50,000", "$100,000", "$250,000", "$500,000", "$1,000,000", "Other"],
+  "liability.harvester": ["$500,000", "Other"],
+  "liability.licensedBuilderIndemnity": ["$250,000", "Other"],
+  "liability.wineHoneyOlive": ["$100,000", "$250,000", "$500,000", "Other"],
+  "liability.defectDesign": ["$50,000", "$100,000", "$250,000", "$500,000", "Other"]
+}

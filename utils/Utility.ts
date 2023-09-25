@@ -1,9 +1,11 @@
+import {fail} from "assert";
+
 export async function delay(ms: number) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 function getJSONAdminData(): any {
-  const adminData = require('../../../packages/models/src/data-dictionary/lookup-data.json');
+  const adminData = require('../data/lookup-data.json');
   return adminData;
 }
 

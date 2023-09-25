@@ -27,7 +27,7 @@ fastcsv
     // Now you can perform actions with the parsed data, such as running TestCafe tests
   });
 
-fixture(`Verify Contents Form`).page`http://localhost:6006/`.skipJsErrors();
+fixture(`Verify Contents Form`).page`http://f-pw00qvjy:6006/`.skipJsErrors();
 
 test('Household contents Test', async (t) => {
   await t.maximizeWindow().click(leftMenuWizard.menuHOuseHoldContents);
