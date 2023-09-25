@@ -1,4 +1,4 @@
-name: Target Multiple Node.js Versions and Operating Systems
+name: Test Chromatic
 on: [push, workflow_dispatch]
 
 jobs:
@@ -13,6 +13,8 @@ jobs:
       - uses: chromaui/action@v1
         with:
           projectToken: ${{ secrets.CICD_TOKEN }}
+        env:
+          CI: true
 
       - uses: actions/checkout@v1
       - name: Run TestCafe Tests
